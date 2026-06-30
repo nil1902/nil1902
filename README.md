@@ -427,13 +427,17 @@ const nilimeshPal = {
 ### 🤝 I'm Open For:
 **💼 Freelance Projects** | **🚀 Collaboration Opportunities** | **💡 Tech Discussions** | **👨‍🏫 Mentorship**
 
-### �<td align="center" width="33%">
+### 📬 Get In Touch:
+
+<table>
+<tr>
+<td align="center" width="50%">
 <a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
 </a><br>
 <strong>View Portfolio</strong>
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 <a href="https://www.linkedin.com/in/nilimesh-pal-3882ab162/" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a><br>
@@ -495,14 +499,6 @@ const nilimeshPal = {
   <tr>
     <td colspan="2" align="center" style="padding-top: 20px;">
       <div style="background: rgba(255,255,255,0.9); padding: 15px; border-radius: 10px; margin: 10px;">
-        <h4 style="color: #333;">🙏 Thank You for Your Support! 🇮🇳</h4>
-        <p style="color: #666;"><b>Every contribution motivates me to build more innovative projects and contribute to the open-source community!</b></p>
-      </div>
-    </td>
-  </tr>
-</table>
-</div>table>
-</div>55,255,0.9); padding: 15px; border-radius: 10px; margin: 10px;">
         <h4 style="color: #333;">🙏 Thank You for Your Support! 🇮🇳</h4>
         <p style="color: #666;"><b>Every contribution motivates me to build more innovative projects and contribute to the open-source community!</b></p>
       </div>
