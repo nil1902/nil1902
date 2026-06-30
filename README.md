@@ -1,4 +1,4 @@
-﻿# 👋 Hi, I'm Nilimesh Pal
+# 👋 Hi, I'm Nilimesh Pal
 
 <img align="right" height="200" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Coding Animation" />
 
@@ -138,7 +138,6 @@ const nilimeshPal = {
     ]
 };
 ```
-
 
 ## 🌟 GitHub Trophies
 
