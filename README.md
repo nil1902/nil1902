@@ -53,7 +53,7 @@
       </details>
     </td>
     <td width="45%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/GIFs/programmer.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+      <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
