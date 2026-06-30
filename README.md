@@ -13,10 +13,18 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nilimesh-pal-3882ab162/)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/pal_nilimesh)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/nil1902_xp/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://nilimeshpal.dev)
+<a href="https://www.linkedin.com/in/nilimesh-pal-3882ab162/" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://x.com/pal_nilimesh" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+</a>
+<a href="https://www.instagram.com/nil1902_xp/" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+</a>
+<a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
+<img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
+</a>
 ![Profile Views](https://komarev.com/ghpvc/?username=nil1902&color=F75C7E&style=for-the-badge&label=Profile+Views)
 
 </div>
@@ -26,24 +34,109 @@
 ## 📌 Quick Navigation
 
 <div align="center">
-<table>
+
+### 🚀 Explore My Profile
+
+<table width="100%" style="border-collapse: collapse;">
   <tr>
-    <td>
-      <pre>
-┌────────────────────────────────────────────────────────┐
-│  👤 <b><a href="#-about-me">About Me</a></b>          — <i>Who I am & my background</i>       │
-│  💻 <b><a href="#-tech-stack">Tech Stack</a></b>        — <i>Technologies I work with</i>       │
-│  📊 <b><a href="#-github-analytics-dashboard">GitHub Analytics</a></b>  — <i>Real-time contribution stats</i>   │
-│  🌟 <b><a href="#-featured-projects-portfolio">Projects</a></b>          — <i>Web, Mobile & IoT Showcase</i>     │
-│  🎓 <b><a href="#-achievements--recognition">Achievements</a></b>      — <i>Education & credentials</i>        │
-│  🧠 <b><a href="#-developer-profile">Developer Profile</a></b> — <i>My technical specifications</i>    │
-│  🤝 <b><a href="#-lets-connect--collaborate">Connect with Me</a></b>   — <i>Let's build something great</i>   │
-│  🇮🇳 <b><a href="#-support-my-work">Support My Work</a></b>   — <i>UPI & Indian Payment Methods</i>   │
-└────────────────────────────────────────────────────────┘
-      </pre>
+    <td align="center" width="16.66%" style="padding: 15px;">
+      <a href="#-about-me">
+        <img src="https://img.shields.io/badge/👤-About%20Me-FF6B6B?style=for-the-badge&logoColor=white" alt="About Me" />
+        <br><sub><b>Who I Am</b></sub>
+      </a>
+    </td>
+    <td align="center" width="16.66%" style="padding: 15px;">
+      <a href="#-tech-stack">
+        <img src="https://img.shields.io/badge/💻-Tech%20Stack-4ECDC4?style=for-the-badge&logoColor=white" alt="Tech Stack" />
+        <br><sub><b>My Skills</b></sub>
+      </a>
+    </td>
+    <td align="center" width="16.66%" style="padding: 15px;">
+      <a href="#-github-analytics-dashboard">
+        <img src="https://img.shields.io/badge/📊-GitHub%20Stats-45B7D1?style=for-the-badge&logoColor=white" alt="GitHub Stats" />
+        <br><sub><b>Activity & Stats</b></sub>
+      </a>
+    </td>
+    <td align="center" width="16.66%" style="padding: 15px;">
+      <a href="#-featured-projects-portfolio">
+        <img src="https://img.shields.io/badge/🌟-Projects-F7DC6F?style=for-the-badge&logoColor=white" alt="Projects" />
+        <br><sub><b>My Work</b></sub>
+      </a>
+    </td>
+    <td align="center" width="16.66%" style="padding: 15px;">
+      <a href="#-achievements--recognition">
+        <img src="https://img.shields.io/badge/🎓-Achievements-BB8FCE?style=for-the-badge&logoColor=white" alt="Achievements" />
+        <br><sub><b>Education</b></sub>
+      </a>
+    </td>
+    <td align="center" width="16.66%" style="padding: 15px;">
+      <a href="#-lets-connect--collaborate">
+        <img src="https://img.shields.io/badge/🤝-Connect-85C1E9?style=for-the-badge&logoColor=white" alt="Connect" />
+        <br><sub><b>Get in Touch</b></sub>
+      </a>
     </td>
   </tr>
 </table>
+
+### 📂 Project Categories
+
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
+  <a href="#-web--software-development">
+    <img src="https://img.shields.io/badge/🌐%20Web%20Projects-7%20Projects-success?style=flat-square&labelColor=282c34" alt="Web Projects" />
+  </a>
+  <a href="#-mobile-applications">
+    <img src="https://img.shields.io/badge/📱%20Mobile%20Apps-3%20Projects-blue?style=flat-square&labelColor=282c34" alt="Mobile Apps" />
+  </a>
+  <a href="#-iot--embedded-systems">
+    <img src="https://img.shields.io/badge/🤖%20IoT%20Projects-10%20Projects-orange?style=flat-square&labelColor=282c34" alt="IoT Projects" />
+  </a>
+</div>
+
+### ⚡ Quick Stats
+
+<div align="center">
+  <table style="border: none; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; color: white;">
+    <tr>
+      <td align="center" width="25%">
+        <h3>🎓</h3>
+        <b>9.24 CGPA</b><br>
+        <sub>First Class Honors</sub>
+      </td>
+      <td align="center" width="25%">
+        <h3>🚀</h3>
+        <b>25+ Projects</b><br>
+        <sub>Web, Mobile, IoT</sub>
+      </td>
+      <td align="center" width="25%">
+        <h3>💻</h3>
+        <b>Full Stack</b><br>
+        <sub>React + Node.js</sub>
+      </td>
+      <td align="center" width="25%">
+        <h3>🏆</h3>
+        <b>IoT Expert</b><br>
+        <sub>Arduino + Pi</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### 🔗 Quick Links
+
+<p align="center">
+  <a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/🌐-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="#-support-my-work">
+    <img src="https://img.shields.io/badge/🇮🇳-Support%20UPI-28a745?style=for-the-badge&logo=razorpay&logoColor=white" alt="Support UPI" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:nilimeshpal15@gmail.com" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/📧-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
+
 </div>
 
 ---
@@ -69,7 +162,7 @@
       </details>
     </td>
     <td width="45%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/GIFs/desktop.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+      <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
@@ -126,31 +219,59 @@
   <table width="100%">
     <tr>
       <td width="50%" align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api?username=nil1902&show_icons=true&theme=radical&include_all_commits=true&count_private=true" width="100%" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=nil1902&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" width="100%" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center" valign="top">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nil1902&layout=compact&theme=radical&langs_count=8" width="100%" alt="Top Languages" />
+        <img src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=nil1902&layout=compact&theme=radical&langs_count=8&hide_border=true" width="100%" alt="Top Languages" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center" valign="top">
         <br>
-        <img src="https://streak-stats.demolab.com?user=nil1902&theme=radical&hide_border=false" width="100%" alt="GitHub Streak" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center" valign="top">
-        <br>
-        <img src="https://github-profile-trophy.vercel.app/?username=nil1902&theme=radical&column=3&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center" valign="top">
-        <br>
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=nil1902&theme=radical&bg_color=0d1426&color=38bdae&line=70a5fd&point=bf91f3&area=true&hide_border=true" width="100%" alt="GitHub Activity Graph" />
+        <img src="https://streak-stats.demolab.com/?user=nil1902&theme=radical&hide_border=true" width="60%" alt="GitHub Streak" />
       </td>
     </tr>
   </table>
+</div>
+
+### 📈 Alternative GitHub Stats (Backup)
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=nil1902&theme=radical" width="100%" alt="GitHub Profile Summary" />
+  
+  <table width="100%">
+    <tr>
+      <td width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nil1902&theme=radical" width="100%" alt="Repos per Language" />
+      </td>
+      <td width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nil1902&theme=radical" width="100%" alt="Most Commit Language" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nil1902&theme=radical" width="100%" alt="Stats Card" />
+      </td>
+      <td width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nil1902&theme=radical&utcOffset=5.5" width="100%" alt="Productive Time" />
+      </td>
+    </tr>
+  </table>
+</div>
+
+### 🏆 Simple Stats That Actually Work
+
+<div align="center">
+  
+**📊 GitHub Stats Overview:**
+- 🌟 **Stars Earned:** Check out my repositories
+- 🔀 **Forks Created:** Contributing to open source
+- 📝 **Repositories:** 25+ Projects (Web + Mobile + IoT)
+- 💻 **Languages:** JavaScript, TypeScript, Python, C, Java
+- 🎯 **Focus Areas:** Full Stack Development, IoT Engineering, AI/ML
+
+[![GitHub](https://img.shields.io/badge/GitHub-nil1902-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nil1902)
+
 </div>
 
 ---
@@ -420,19 +541,19 @@ const nilimeshPal = {
 <table>
 <tr>
 <td align="center" width="33%">
-<a href="mailto:nilimeshpal15@gmail.com">
+<a href="mailto:nilimeshpal15@gmail.com" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a><br>
 <strong>Email Me</strong>
 </td>
 <td align="center" width="33%">
-<a href="https://nilimeshpal.dev">
+<a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
 </a><br>
 <strong>View Portfolio</strong>
 </td>
 <td align="center" width="33%">
-<a href="https://www.linkedin.com/in/nilimesh-pal-3882ab162/">
+<a href="https://www.linkedin.com/in/nilimesh-pal-3882ab162/" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a><br>
 <strong>Connect on LinkedIn</strong>
@@ -447,22 +568,59 @@ const nilimeshPal = {
 ## 🇮🇳 Support My Work
 
 <div align="center">
-<table width="100%">
+<table width="100%" style="border: 2px solid #e73c7e; border-radius: 15px; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
   <tr>
-    <td width="30%" align="center" valign="middle">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=8250565455@paytm%26pn=Nilimesh%20Pal%26cu=INR" width="150" alt="UPI QR Code" style="border: 4px solid #fff; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
-      <br>
-      <sub><b>Scan to Pay via UPI</b></sub>
+    <td colspan="2" align="center">
+      <h2 style="color: white;">💝 Support My Open Source Journey</h2>
+      <p style="color: #f0f0f0;"><i>Your support helps me build better hardware prototypes, maintain cloud servers, and contribute to open source! 🚀</i></p>
     </td>
-    <td width="70%" valign="middle" align="left">
-      <h3>💸 Support via UPI / Net Banking</h3>
-      <p>If you find my projects helpful and would like to support my work, you can scan the QR code using any UPI app (Google Pay, PhonePe, Paytm, BHIM, etc.) or use the UPI IDs below:</p>
-      <ul>
-        <li><b>Paytm UPI ID:</b> <code>8250565455@paytm</code></li>
-        <li><b>PhonePe:</b> <code>8250565455@ybl</code></li>
-        <li><b>Alternate UPI ID:</b> <code>8250565455@upi</code></li>
-      </ul>
-      <p><i>Every contribution helps in funding hardware prototypes, cloud servers, and open-source development! Thank you! 🙏🇮🇳</i></p>
+  </tr>
+  <tr>
+    <td width="35%" align="center" valign="middle">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=8250565455@ptsbi%26pn=Nilimesh%20Pal%26cu=INR" width="180" alt="UPI QR Code" style="border: 4px solid #fff; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);" />
+      <br><br>
+      <div style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 10px; margin: 10px;">
+        <b>📱 Scan with any UPI App</b><br>
+        <sub>Google Pay • PhonePe • Paytm • BHIM</sub>
+      </div>
+    </td>
+    <td width="65%" valign="middle" align="left" style="padding-left: 30px; color: white;">
+      <h3>� Indian Payment Options</h3>
+      <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
+        <table width="100%" style="font-family: 'Courier New', monospace; color: #f0f0f0;">
+          <tr>
+            <td style="padding: 8px;"><b>🔸 GPay/Paytm UPI ID:</b></td>
+            <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">8250565455@ptsbi</code></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;"><b>🔸 PhonePe UPI ID:</b></td>
+            <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">8250565455@ybl</code></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;"><b>🔸 BHIM UPI ID:</b></td>
+            <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">8250565455@upi</code></td>
+          </tr>
+          <tr>
+            <td style="padding: 8px;"><b>🔸 Mobile Number:</b></td>
+            <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">+91 8250565455</code></td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <div align="center">
+        <img src="https://img.shields.io/badge/GPay-4285F4?style=for-the-badge&logo=googlepay&logoColor=white" alt="GPay" />
+        <img src="https://img.shields.io/badge/Paytm-002970?style=for-the-badge&logo=paytm&logoColor=white" alt="Paytm" />
+        <img src="https://img.shields.io/badge/PhonePe-5f259f?style=for-the-badge&logo=phonepe&logoColor=white" alt="PhonePe" />
+        <img src="https://img.shields.io/badge/BHIM-FF6600?style=for-the-badge&logoColor=white" alt="BHIM" />
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" style="padding-top: 20px;">
+      <div style="background: rgba(255,255,255,0.9); padding: 15px; border-radius: 10px; margin: 10px;">
+        <h4 style="color: #333;">🙏 Thank You for Your Support! 🇮🇳</h4>
+        <p style="color: #666;"><b>Every contribution motivates me to build more innovative projects and contribute to the open-source community!</b></p>
+      </div>
     </td>
   </tr>
 </table>
