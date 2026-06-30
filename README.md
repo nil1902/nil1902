@@ -155,9 +155,10 @@
 <div align="center">
   
 **📊 GitHub Stats Overview:**
-- 🌟 **Stars Earned:** Check out my repositories
-- 🔀 **Forks Created:** Contributing to open source
-- 📝 **Repositories:** 25+ Projects (Web + Mobile + IoT)
+- 🌟 **Total Stars Earned:** <!-- STATS_STARS_START -->0<!-- STATS_STARS_END -->
+- 🔀 **Total Forks Created:** <!-- STATS_FORKS_START -->0<!-- STATS_FORKS_END -->
+- 📝 **Public Repositories:** <!-- STATS_REPOS_START -->15<!-- STATS_REPOS_END -->
+- 👥 **Followers:** <!-- STATS_FOLLOWERS_START -->0<!-- STATS_FOLLOWERS_END -->
 - 💻 **Languages:** JavaScript, TypeScript, Python, C, Java
 - 🎯 **Focus Areas:** Full Stack Development, IoT Engineering, AI/ML
 
