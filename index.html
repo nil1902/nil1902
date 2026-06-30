@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilimesh Pal | Portfolio & Projects Overview</title>
+    <meta name="description" content="Portfolio and projects overview of Nilimesh Pal, Full Stack Developer, UI/UX Designer, and IoT Engineer. Explore web, mobile, and hardware projects.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://img.icons8.com/nolan/64/code-fork.png">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Canvas Background for Animated Particles -->
+    <canvas id="bg-canvas"></canvas>
+    
+    <!-- Background Gradient Glow Blobs -->
+    <div class="bg-glow-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">
+                <i class="fa-solid fa-code"></i><span>Nil</span>imesh
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Connect</a></li>
+            </ul>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-circle-notch"></i> Available for Opportunities
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <br><span>Nilimesh Pal</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span id="typing-text"></span><span class="typing-cursor">|</span>
+                    </h2>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore Projects <i class="fa-solid fa-arrow-down-long"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Get in Touch <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/in/nilimesh-pal-3882ab162/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/nil1902" target="_blank" class="social-icon" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://x.com/pal_nilimesh" target="_blank" class="social-icon" aria-label="Twitter/X">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nil1902_xp/" target="_blank" class="social-icon" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="profile-sphere">
+                        <div class="profile-sphere-inner">
+                            <!-- Premium avatar placeholder, can be replaced by real photo -->
+                            <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="Coding Animation">
+                        </div>
+                    </div>
+                    <!-- Floating Tech Orbits -->
+                    <div class="tech-orbit orbit-1" title="React"><i class="fa-brands fa-react"></i></div>
+                    <div class="tech-orbit orbit-2" title="Node.js"><i class="fa-brands fa-node-js"></i></div>
+                    <div class="tech-orbit orbit-3" title="Python"><i class="fa-brands fa-python"></i></div>
+                    <div class="tech-orbit orbit-4" title="Microchips / IoT"><i class="fa-solid fa-microchip"></i></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT / INTERACTIVE TERMINAL SECTION -->
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">A fusion of software and hardware engineering to create elegant solutions.</p>
+                
+                <div class="about-grid">
+                    <div class="about-info">
+                        <h3>Bridging Digital & Physical Worlds</h3>
+                        <p>
+                            I'm a B.Tech Electronics and Communication Engineering (ECE) graduate from JIS College of Engineering with First Class Honors (9.24 CGPA). My unique academic background allows me to think both at the software layer and the physical hardware layer.
+                        </p>
+                        <p>
+                            With a strong passion for frontend development, IoT design, and system architecture, I focus on building responsive, highly interactive, and optimized web applications as well as smart physical devices.
+                        </p>
+                        <div class="about-quote">
+                            "I love turning ideas into elegant, functional interfaces that make a difference."
+                        </div>
+                    </div>
+
+                    <!-- VS Code Interactive Mockup -->
+                    <div class="editor-window glass-panel" id="terminal-editor">
+                        <div class="editor-header">
+                            <div class="editor-controls">
+                                <span class="control-dot dot-red"></span>
+                                <span class="control-dot dot-yellow"></span>
+                                <span class="control-dot dot-green"></span>
+                            </div>
+                            <div class="editor-tabs">
+                                <div class="editor-tab active tab-js" data-tab="profile">
+                                    <i class="fa-brands fa-js"></i> profile.js
+                                </div>
+                                <div class="editor-tab tab-json" data-tab="skills">
+                                    <i class="fa-solid fa-braces"></i> specs.json
+                                </div>
+                                <div class="editor-tab tab-md" data-tab="philosophy">
+                                    <i class="fa-regular fa-file-lines"></i> bio.md
+                                </div>
+                            </div>
+                            <div class="editor-title">Visual Studio Code</div>
+                        </div>
+                        <div class="editor-body" id="editor-content">
+                            <!-- Contents will be loaded dynamically by script.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TECH STACK SECTION -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">Tech Stack & Expertise</h2>
+                <p class="section-subtitle">A comprehensive overview of technologies I work with daily.</p>
+                
+                <div class="tech-container">
+                    <!-- Frontend -->
+                    <div class="tech-category-card glass-panel">
+                        <h3><i class="fa-solid fa-laptop-code"></i> Frontend</h3>
+                        <div class="tech-list">
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Tailwind CSS</span><span class="tech-val">95%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="95%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">HTML/CSS/JS</span><span class="tech-val">85%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="85%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">React</span><span class="tech-val">75%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="75%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">TypeScript</span><span class="tech-val">60%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="60%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Next.js & Figma</span><span class="tech-val">80%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend & Databases -->
+                    <div class="tech-category-card glass-panel">
+                        <h3><i class="fa-solid fa-server"></i> Backend & Data</h3>
+                        <div class="tech-list">
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Python</span><span class="tech-val">80%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="80%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">SQL / PostgreSQL</span><span class="tech-val">75%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="75%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Node.js / Express</span><span class="tech-val">55%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="55%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Firebase & MongoDB</span><span class="tech-val">75%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="75%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hardware & IoT -->
+                    <div class="tech-category-card glass-panel">
+                        <h3><i class="fa-solid fa-microchip"></i> Hardware & IoT</h3>
+                        <div class="tech-list">
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">C Programming</span><span class="tech-val">85%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="85%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Arduino & NodeMCU</span><span class="tech-val">85%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="85%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">VHDL / VLSI</span><span class="tech-val">70%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="70%"></div></div>
+                            </div>
+                            <div class="tech-item">
+                                <div class="tech-info"><span class="tech-name">Raspberry Pi & OpenCV</span><span class="tech-val">75%</span></div>
+                                <div class="tech-bar-bg"><div class="tech-bar-fill" data-width="75%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">An interactive showcase of web, mobile, and hardware-software integrations.</p>
+                
+                <div class="projects-control">
+                    <div class="search-bar-wrapper">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="project-search" class="search-input" placeholder="Search by project name, tech, or description...">
+                    </div>
+                    <div class="filter-tabs">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="web">Web & Software</button>
+                        <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                        <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+                    </div>
+                </div>
+
+                <!-- Project Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects are populated dynamically by script.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS & ACHIEVEMENTS SECTION -->
+        <section id="stats">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="stat-number">9.24</div>
+                        <div class="stat-label">B.Tech ECE CGPA</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon"><i class="fa-solid fa-diagram-project"></i></div>
+                        <div class="stat-number">25+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">IoT & Hardware Systems</div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Learning Mindset</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONNECT & SUPPORT SECTION -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Reach out for collaborations, freelance projects, or just a tech discussion!</p>
+                
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-card glass-panel">
+                        <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! (Demo Mode)'); this.reset();">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" id="form-name" class="form-control" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" class="form-control" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" class="form-control" placeholder="Collaboration / Job Opportunity" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" class="form-control" placeholder="Hi Nilimesh, I would love to talk about..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Send Message <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Contact Info & Support -->
+                    <div class="quick-connect-column">
+                        <div class="info-cards">
+                            <div class="info-card glass-panel">
+                                <div class="info-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="info-card-content">
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:nilimeshpal15@gmail.com">nilimeshpal15@gmail.com</a></p>
+                                </div>
+                            </div>
+                            <div class="info-card glass-panel">
+                                <div class="info-card-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="info-card-content">
+                                    <h4>Mobile</h4>
+                                    <p>+91 8250565455</p>
+                                </div>
+                            </div>
+                            <div class="info-card glass-panel">
+                                <div class="info-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-card-content">
+                                    <h4>Location</h4>
+                                    <p>Nadia, West Bengal, India</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Support Section -->
+                        <div class="support-card glass-panel">
+                            <h4>Support My Work</h4>
+                            <div class="support-buttons">
+                                <a href="https://www.buymeacoffee.com/nil1902" target="_blank" class="support-btn btn-coffee">
+                                    <i class="fa-solid fa-mug-hot"></i> Buy Me A Coffee
+                                </a>
+                                <a href="https://paypal.me/nil1902" target="_blank" class="support-btn btn-paypal">
+                                    <i class="fa-brands fa-paypal"></i> PayPal
+                                </a>
+                                <a href="https://ko-fi.com/nil1902" target="_blank" class="support-btn btn-kofi">
+                                    <i class="fa-solid fa-heart"></i> Ko-Fi
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Nilimesh Pal. All Rights Reserved.</p>
+            <p class="footer-credits">Designed & Developed with <i class="fa-solid fa-heart" style="color: #f43f5e;"></i> for an elegant portfolio experience.</p>
+        </div>
+    </footer>
+
+    <!-- PROJECT DETAILS MODAL -->
+    <div class="modal-overlay" id="project-modal">
+        <div class="modal-wrapper glass-panel">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close Modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-badge-group">
+                    <span class="project-category-tag" id="modal-category">Web Development</span>
+                </div>
+                <h3 class="modal-title" id="modal-title">Project Title</h3>
+                
+                <div class="modal-desc" id="modal-desc">
+                    Project detailed description will go here.
+                </div>
+                
+                <h4 class="modal-section-title"><i class="fa-solid fa-layer-group"></i> Technologies Used</h4>
+                <div class="modal-tech-grid" id="modal-tech-list">
+                    <!-- Tech badges populated dynamically -->
+                </div>
+                
+                <div class="modal-footer" id="modal-links">
+                    <!-- Links populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
