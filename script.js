@@ -775,6 +775,42 @@ async function fetchGitHubStats() {
     }
 }
 
+// --- FETCH REAL-TIME PORTFOLIO VISITS ---
+async function fetchVisitorCount() {
+    try {
+        const response = await fetch('https://api.counterapi.dev/v1/projects/nil1902_portfolio/keys/visits/increment');
+        if (!response.ok) throw new Error('Failed to increment visitor counter');
+        const data = await response.json();
+        const visits = data.value;
+        
+        // Update the Main Stats Grid with the visits card
+        const statsGrid = document.querySelector('.stats-grid');
+        if (statsGrid) {
+            const visitsCard = document.createElement('div');
+            visitsCard.className = 'stat-card glass-panel';
+            visitsCard.innerHTML = `
+                <div class="stat-icon" style="color: var(--accent);"><i class="fa-solid fa-eye"></i></div>
+                <div class="stat-number">${visits.toLocaleString()}</div>
+                <div class="stat-label">Profile Visits</div>
+            `;
+            statsGrid.appendChild(visitsCard);
+        }
+
+        // Also update the footer counter if it exists
+        const footerVisits = document.getElementById('footer-visits-count');
+        if (footerVisits) {
+            footerVisits.textContent = visits.toLocaleString();
+            const footerVisitsWrapper = document.getElementById('footer-visits-wrapper');
+            if (footerVisitsWrapper) {
+                footerVisitsWrapper.style.display = 'inline-block';
+            }
+        }
+    } catch (error) {
+        console.error('Error fetching visitor count:', error);
+    }
+}
+
 // Call on load
 fetchGitHubStats();
+fetchVisitorCount();
 
