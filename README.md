@@ -1,17 +1,13 @@
-# <div align="center">👋 Hi there! I'm Nilimesh Pal</div>
-
 <div align="center">
-  <h3>🚀 Full Stack Developer & UI/UX Designer & IoT Engineer</h3>
-  <p><i>Turning ideas into elegant, functional interfaces that make a difference! ✨</i></p>
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=26&pause=1000&color=F75C7E&width=500&height=50&center=true&vCenter=true&lines=Full+Stack+Developer;UI%2FUX+Designer;IoT+Engineer;AI%2FML+Enthusiast;Problem+Solver" alt="Typing SVG" />
-</div>
+# 👋 Hi there! I'm Nilimesh Pal
+
+### 🚀 Full Stack Developer & UI/UX Designer & IoT Engineer
+*Turning ideas into elegant, functional interfaces that make a difference! ✨*
+
+<img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=26&pause=1000&color=F75C7E&width=500&height=50&center=true&vCenter=true&lines=Full+Stack+Developer;UI%2FUX+Designer;IoT+Engineer;AI%2FML+Enthusiast;Problem+Solver" alt="Typing SVG" />
 
 <br />
-
-<div align="center">
 
 <a href="https://www.linkedin.com/in/nilimesh-pal-3882ab162/" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -25,123 +21,14 @@
 <a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
 </a>
+
 ![Profile Views](https://komarev.com/ghpvc/?username=nil1902&color=F75C7E&style=for-the-badge&label=Profile+Views)
 
 </div>
 
 ---
 
-## 📌 Quick Navigation
-
-<div align="center">
-
-### 🚀 Explore My Profile
-
-<table width="100%" style="border-collapse: collapse;">
-  <tr>
-    <td align="center" width="16.66%" style="padding: 15px;">
-      <a href="#-about-me">
-        <img src="https://img.shields.io/badge/👤-About%20Me-FF6B6B?style=for-the-badge&logoColor=white" alt="About Me" />
-        <br><sub><b>Who I Am</b></sub>
-      </a>
-    </td>
-    <td align="center" width="16.66%" style="padding: 15px;">
-      <a href="#-tech-stack">
-        <img src="https://img.shields.io/badge/💻-Tech%20Stack-4ECDC4?style=for-the-badge&logoColor=white" alt="Tech Stack" />
-        <br><sub><b>My Skills</b></sub>
-      </a>
-    </td>
-    <td align="center" width="16.66%" style="padding: 15px;">
-      <a href="#-github-analytics-dashboard">
-        <img src="https://img.shields.io/badge/📊-GitHub%20Stats-45B7D1?style=for-the-badge&logoColor=white" alt="GitHub Stats" />
-        <br><sub><b>Activity & Stats</b></sub>
-      </a>
-    </td>
-    <td align="center" width="16.66%" style="padding: 15px;">
-      <a href="#-featured-projects-portfolio">
-        <img src="https://img.shields.io/badge/🌟-Projects-F7DC6F?style=for-the-badge&logoColor=white" alt="Projects" />
-        <br><sub><b>My Work</b></sub>
-      </a>
-    </td>
-    <td align="center" width="16.66%" style="padding: 15px;">
-      <a href="#-achievements--recognition">
-        <img src="https://img.shields.io/badge/🎓-Achievements-BB8FCE?style=for-the-badge&logoColor=white" alt="Achievements" />
-        <br><sub><b>Education</b></sub>
-      </a>
-    </td>
-    <td align="center" width="16.66%" style="padding: 15px;">
-      <a href="#-lets-connect--collaborate">
-        <img src="https://img.shields.io/badge/🤝-Connect-85C1E9?style=for-the-badge&logoColor=white" alt="Connect" />
-        <br><sub><b>Get in Touch</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
-
-### 📂 Project Categories
-
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 20px 0;">
-  <a href="#-web--software-development">
-    <img src="https://img.shields.io/badge/🌐%20Web%20Projects-7%20Projects-success?style=flat-square&labelColor=282c34" alt="Web Projects" />
-  </a>
-  <a href="#-mobile-applications">
-    <img src="https://img.shields.io/badge/📱%20Mobile%20Apps-3%20Projects-blue?style=flat-square&labelColor=282c34" alt="Mobile Apps" />
-  </a>
-  <a href="#-iot--embedded-systems">
-    <img src="https://img.shields.io/badge/🤖%20IoT%20Projects-10%20Projects-orange?style=flat-square&labelColor=282c34" alt="IoT Projects" />
-  </a>
-</div>
-
-### ⚡ Quick Stats
-
-<div align="center">
-  <table style="border: none; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; color: white;">
-    <tr>
-      <td align="center" width="25%">
-        <h3>🎓</h3>
-        <b>9.24 CGPA</b><br>
-        <sub>First Class Honors</sub>
-      </td>
-      <td align="center" width="25%">
-        <h3>🚀</h3>
-        <b>25+ Projects</b><br>
-        <sub>Web, Mobile, IoT</sub>
-      </td>
-      <td align="center" width="25%">
-        <h3>💻</h3>
-        <b>Full Stack</b><br>
-        <sub>React + Node.js</sub>
-      </td>
-      <td align="center" width="25%">
-        <h3>🏆</h3>
-        <b>IoT Expert</b><br>
-        <sub>Arduino + Pi</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
-### 🔗 Quick Links
-
-<p align="center">
-  <a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🌐-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="#-support-my-work">
-    <img src="https://img.shields.io/badge/🇮🇳-Support%20UPI-28a745?style=for-the-badge&logo=razorpay&logoColor=white" alt="Support UPI" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:nilimeshpal15@gmail.com" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/📧-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
-
-</div>
-
----
-
-## 👤 About Me
+## � About Mev
 
 <table width="100%">
   <tr>
@@ -158,11 +45,10 @@
         📍 <b>Location:</b> Nadia, West Bengal, India 🇮🇳<br>
         🎓 <b>Education:</b> B.Tech ECE @ JIS College of Engineering (CGPA: 9.24/10, First Class Honors)<br>
         📧 <b>Email:</b> nilimeshpal15@gmail.com<br>
-        📱 <b>Phone:</b> +91 8250565455
       </details>
     </td>
     <td width="45%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+      <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
@@ -577,7 +463,7 @@ const nilimeshPal = {
   </tr>
   <tr>
     <td width="35%" align="center" valign="middle">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=8250565455@ptsbi%26pn=Nilimesh%20Pal%26cu=INR" width="180" alt="UPI QR Code" style="border: 4px solid #fff; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);" />
+      <img src="img.jpg" style="border: 4px solid #fff; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);" />
       <br><br>
       <div style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 10px; margin: 10px;">
         <b>📱 Scan with any UPI App</b><br>
@@ -600,10 +486,7 @@ const nilimeshPal = {
             <td style="padding: 8px;"><b>🔸 BHIM UPI ID:</b></td>
             <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">8250565455@upi</code></td>
           </tr>
-          <tr>
-            <td style="padding: 8px;"><b>🔸 Mobile Number:</b></td>
-            <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">+91 8250565455</code></td>
-          </tr>
+          
         </table>
       </div>
       <br>
