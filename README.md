@@ -32,23 +32,26 @@
 
 <table width="100%">
   <tr>
-    <td width="55%" valign="top">
+    <td width="50%" valign="top">
       <p>I'm a frontend developer with a strong eye for design and a passion for creating smooth, interactive user experiences. With a background in Electronics and Communication Engineering, I bridge the gap between the digital software layer and the physical hardware layer.</p>
-      <p>🔭 <b>Currently building:</b> AI-powered web applications and IoT solutions<br>
-      🌱 <b>Learning:</b> Advanced system architecture, VLSI Design, and Machine Learning<br>
-      👯 <b>Looking to collaborate on:</b> Open-source projects and innovative tech solutions<br>
-      💬 <b>Ask me about:</b> React, Node.js, IoT, Embedded Systems, AI/ML<br>
-      ⚡ <b>Fun fact:</b> Built 25+ projects combining hardware with software!</p>
+      
+      <p>🔭 <b>Currently building:</b> AI-powered web applications and IoT solutions</p>
+      <p>🌱 <b>Learning:</b> Advanced system architecture, VLSI Design, and Machine Learning</p>
+      <p>👯 <b>Looking to collaborate on:</b> Open-source projects and innovative tech solutions</p>
+      <p>💬 <b>Ask me about:</b> React, Node.js, IoT, Embedded Systems, AI/ML</p>
+      <p>⚡ <b>Fun fact:</b> Built 25+ projects combining hardware with software!</p>
+      
       <details>
         <summary><b>📍 Contact Details</b></summary>
         <br>
         📍 <b>Location:</b> Nadia, West Bengal, India 🇮🇳<br>
         🎓 <b>Education:</b> B.Tech ECE @ JIS College of Engineering (CGPA: 9.24/10, First Class Honors)<br>
         📧 <b>Email:</b> nilimeshpal15@gmail.com<br>
+        📱 <b>Phone:</b> +91 8250565455
       </details>
     </td>
-    <td width="45%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+    <td width="50%" align="center" valign="middle">
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="90%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
