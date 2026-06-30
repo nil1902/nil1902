@@ -48,7 +48,7 @@
       </details>
     </td>
     <td width="45%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
