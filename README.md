@@ -28,30 +28,32 @@
 
 ---
 
-## 🙋🏻‍♂️ About Mev
+## 🙋‍♂️ About Me
 
 <table width="100%">
   <tr>
-    <td width="50%" valign="top">
+    <td width="55%" valign="top">
       <p>I'm a frontend developer with a strong eye for design and a passion for creating smooth, interactive user experiences. With a background in Electronics and Communication Engineering, I bridge the gap between the digital software layer and the physical hardware layer.</p>
-      
-      <p>🔭 <b>Currently building:</b> AI-powered web applications and IoT solutions</p>
-      <p>🌱 <b>Learning:</b> Advanced system architecture, VLSI Design, and Machine Learning</p>
-      <p>👯 <b>Looking to collaborate on:</b> Open-source projects and innovative tech solutions</p>
-      <p>💬 <b>Ask me about:</b> React, Node.js, IoT, Embedded Systems, AI/ML</p>
-      <p>⚡ <b>Fun fact:</b> Built 25+ projects combining hardware with software!</p>
-      
+      <ul>
+        <li>🔭 <b>Currently building:</b> AI-powered web applications and IoT solutions</li>
+        <li>🌱 <b>Learning:</b> Advanced system architecture, VLSI Design, and Machine Learning</li>
+        <li>👯 <b>Looking to collaborate on:</b> Open-source projects and innovative tech solutions</li>
+        <li>💬 <b>Ask me about:</b> React, Node.js, IoT, Embedded Systems, AI/ML</li>
+        <li>⚡ <b>Fun fact:</b> Built 25+ projects combining hardware with software!</li>
+      </ul>
+      <br>
       <details>
         <summary><b>📍 Contact Details</b></summary>
         <br>
-        📍 <b>Location:</b> Nadia, West Bengal, India 🇮🇳<br>
-        🎓 <b>Education:</b> B.Tech ECE @ JIS College of Engineering (CGPA: 9.24/10, First Class Honors)<br>
-        📧 <b>Email:</b> nilimeshpal15@gmail.com<br>
-        📱 <b>Phone:</b> +91 8250565455
+        <ul>
+          <li>📍 <b>Location:</b> Nadia, West Bengal, India 🇮🇳</li>
+          <li>🎓 <b>Education:</b> B.Tech ECE @ JIS College of Engineering (CGPA: 9.24/10, First Class Honors)</li>
+          <li>✉️ <b>Email:</b> nilimeshpal15@gmail.com</li>
+        </ul>
       </details>
     </td>
-    <td width="50%" align="center" valign="middle">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="90%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+    <td width="45%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/GIFs/programmer.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
@@ -425,17 +427,7 @@ const nilimeshPal = {
 ### 🤝 I'm Open For:
 **💼 Freelance Projects** | **🚀 Collaboration Opportunities** | **💡 Tech Discussions** | **👨‍🏫 Mentorship**
 
-### 📬 Get In Touch:
-
-<table>
-<tr>
-<td align="center" width="33%">
-<a href="mailto:nilimeshpal15@gmail.com" target="_blank" rel="noopener noreferrer">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a><br>
-<strong>Email Me</strong>
-</td>
-<td align="center" width="33%">
+### �<td align="center" width="33%">
 <a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">
 <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
 </a><br>
@@ -466,15 +458,15 @@ const nilimeshPal = {
   </tr>
   <tr>
     <td width="35%" align="center" valign="middle">
-      <img src="img.jpg" style="border: 4px solid #fff; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);" />
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi%3A%2F%2Fpay%3Fpa%3D8250565455%40ptsbi%26pn%3DNilimesh%2520Pal%26cu%3DINR" style="border: 4px solid #fff; border-radius: 15px; box-shadow: 0 8px 25px rgba(0,0,0,0.3);" width="180" alt="UPI QR Code" />
       <br><br>
       <div style="background: rgba(255,255,255,0.9); padding: 10px; border-radius: 10px; margin: 10px;">
-        <b>📱 Scan with any UPI App</b><br>
-        <sub>Google Pay • PhonePe • Paytm • BHIM</sub>
+        <b style="color: #333;">📱 Scan with any UPI App</b><br>
+        <sub style="color: #666;">Google Pay • PhonePe • Paytm • BHIM</sub>
       </div>
     </td>
     <td width="65%" valign="middle" align="left" style="padding-left: 30px; color: white;">
-      <h3>� Indian Payment Options</h3>
+      <h3>🇮🇳 Indian Payment Options</h3>
       <div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px;">
         <table width="100%" style="font-family: 'Courier New', monospace; color: #f0f0f0;">
           <tr>
@@ -489,7 +481,6 @@ const nilimeshPal = {
             <td style="padding: 8px;"><b>🔸 BHIM UPI ID:</b></td>
             <td style="padding: 8px;"><code style="background: rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 5px; color: #fff;">8250565455@upi</code></td>
           </tr>
-          
         </table>
       </div>
       <br>
@@ -504,6 +495,14 @@ const nilimeshPal = {
   <tr>
     <td colspan="2" align="center" style="padding-top: 20px;">
       <div style="background: rgba(255,255,255,0.9); padding: 15px; border-radius: 10px; margin: 10px;">
+        <h4 style="color: #333;">🙏 Thank You for Your Support! 🇮🇳</h4>
+        <p style="color: #666;"><b>Every contribution motivates me to build more innovative projects and contribute to the open-source community!</b></p>
+      </div>
+    </td>
+  </tr>
+</table>
+</div>table>
+</div>55,255,0.9); padding: 15px; border-radius: 10px; margin: 10px;">
         <h4 style="color: #333;">🙏 Thank You for Your Support! 🇮🇳</h4>
         <p style="color: #666;"><b>Every contribution motivates me to build more innovative projects and contribute to the open-source community!</b></p>
       </div>
