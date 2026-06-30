@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Space+Grotesk&weight=600&size=22&pause=1000&color=F75C7E&width=435&lines=Full+Stack+Developer;UI%2FUX+Designer;IoT+Engineer;AI%2FML+Enthusiast;Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=26&pause=1000&color=F75C7E&width=500&height=50&center=true&vCenter=true&lines=Full+Stack+Developer;UI%2FUX+Designer;IoT+Engineer;AI%2FML+Enthusiast;Problem+Solver" alt="Typing SVG" />
 </div>
 
 <br />
@@ -23,26 +23,36 @@
 
 ---
 
-## 📖 Table of Contents
-- [🔍 About Me](#-about-me)
-- [💻 Tech Stack](#-tech-stack)
-- [📊 GitHub Analytics Dashboard](#-github-analytics-dashboard)
-- [🌟 Featured Projects Portfolio](#-featured-projects-portfolio)
-  - [🌐 Web & Software Development](#-web--software-development)
-  - [📱 Mobile Applications](#-mobile-applications)
-  - [🤖 IoT & Embedded Systems](#-iot--embedded-systems)
-- [🎓 Achievements & Recognition](#-achievements--recognition)
-- [💡 Developer Profile](#-developer-profile)
-- [🤝 Let's Connect & Collaborate](#-lets-connect--collaborate)
-- [☕ Support My Work](#-support-my-work)
+## 📌 Quick Navigation
+
+<div align="center">
+<table>
+  <tr>
+    <td>
+      <pre>
+┌────────────────────────────────────────────────────────┐
+│  👤 <b><a href="#-about-me">About Me</a></b>          — <i>Who I am & my background</i>       │
+│  💻 <b><a href="#-tech-stack">Tech Stack</a></b>        — <i>Technologies I work with</i>       │
+│  📊 <b><a href="#-github-analytics-dashboard">GitHub Analytics</a></b>  — <i>Real-time contribution stats</i>   │
+│  🌟 <b><a href="#-featured-projects-portfolio">Projects</a></b>          — <i>Web, Mobile & IoT Showcase</i>     │
+│  🎓 <b><a href="#-achievements--recognition">Achievements</a></b>      — <i>Education & credentials</i>        │
+│  🧠 <b><a href="#-developer-profile">Developer Profile</a></b> — <i>My technical specifications</i>    │
+│  🤝 <b><a href="#-lets-connect--collaborate">Connect with Me</a></b>   — <i>Let's build something great</i>   │
+│  🇮🇳 <b><a href="#-support-my-work">Support My Work</a></b>   — <i>UPI & Indian Payment Methods</i>   │
+└────────────────────────────────────────────────────────┘
+      </pre>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
 
-## 🔍 About Me
+## 👤 About Me
 
 <table width="100%">
   <tr>
-    <td width="60%" valign="top">
+    <td width="55%" valign="top">
       <p>I'm a frontend developer with a strong eye for design and a passion for creating smooth, interactive user experiences. With a background in Electronics and Communication Engineering, I bridge the gap between the digital software layer and the physical hardware layer.</p>
       <p>🔭 <b>Currently building:</b> AI-powered web applications and IoT solutions<br>
       🌱 <b>Learning:</b> Advanced system architecture, VLSI Design, and Machine Learning<br>
@@ -58,8 +68,8 @@
         📱 <b>Phone:</b> +91 8250565455
       </details>
     </td>
-    <td width="40%" align="center" valign="middle">
-      <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
+    <td width="45%" align="center" valign="middle">
+      <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/GIFs/desktop.gif" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" alt="Coding Animation" />
     </td>
   </tr>
 </table>
@@ -125,7 +135,7 @@
     <tr>
       <td colspan="2" align="center" valign="top">
         <br>
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=nil1902&theme=radical&hide_border=false" width="100%" alt="GitHub Streak" />
+        <img src="https://streak-stats.demolab.com?user=nil1902&theme=radical&hide_border=false" width="100%" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -137,7 +147,7 @@
     <tr>
       <td colspan="2" align="center" valign="top">
         <br>
-        <img src="https://activity-graph.herokuapp.com/graph?username=nil1902&theme=redical&bg_color=20232a&hide_border=true" width="100%" alt="GitHub Activity Graph" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=nil1902&theme=radical&bg_color=0d1426&color=38bdae&line=70a5fd&point=bf91f3&area=true&hide_border=true" width="100%" alt="GitHub Activity Graph" />
       </td>
     </tr>
   </table>
@@ -165,8 +175,8 @@
       <td>Modern portfolio website with smooth animations and interactive elements built with React and Framer Motion.</td>
       <td><code>React</code> <code>TypeScript</code> <code>Tailwind CSS</code> <code>Framer Motion</code> <code>Vite</code></td>
       <td align="center">
-        <a href="https://nilimeshpal.dev">🌐 Live Demo</a><br>
-        <a href="https://nilimesh-portfolio.vercel.app/">🔄 Backup</a>
+        <a href="https://nilimeshpal.dev" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a><br>
+        <a href="https://nilimesh-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">🔄 Backup</a>
       </td>
     </tr>
     <tr>
@@ -174,7 +184,7 @@
       <td>Smart Restaurant dashboard to manage menus, orders, reservations, and customers with real-time analytics and kitchen coordination.</td>
       <td><code>React</code> <code>TypeScript</code> <code>Firebase</code> <code>Redux</code> <code>Material UI</code> <code>Chart.js</code></td>
       <td align="center">
-        <a href="https://nil-s-kitchen.vercel.app/">🌐 Live Demo</a>
+        <a href="https://nil-s-kitchen.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a>
       </td>
     </tr>
     <tr>
@@ -182,7 +192,7 @@
       <td>A voice-based AI assistant built with React and Gemini API, featuring real-time speech recognition, smart responses, and project walkthroughs.</td>
       <td><code>React</code> <code>Tailwind CSS</code> <code>Gemini API</code> <code>Framer Motion</code> <code>Web APIs</code></td>
       <td align="center">
-        <a href="https://lyra2olyr1.vercel.app/">🌐 Live Demo</a>
+        <a href="https://lyra2olyr1.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a>
       </td>
     </tr>
     <tr>
@@ -190,7 +200,7 @@
       <td>An AI-driven plant identifier that uses image recognition, voice commands, and PDF export for seamless botanical discovery.</td>
       <td><code>React</code> <code>Next.js</code> <code>Tailwind CSS</code> <code>Gemini API</code> <code>Framer Motion</code> <code>Web APIs</code></td>
       <td align="center">
-        <a href="https://plant-identification-web-applicatio.vercel.app/">🌐 Live Demo</a>
+        <a href="https://plant-identification-web-applicatio.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a>
       </td>
     </tr>
     <tr>
@@ -198,8 +208,8 @@
       <td>A fully functional YouTube clone featuring video browsing, search functionality, responsive design, and modern UI with dark mode support.</td>
       <td><code>React</code> <code>YouTube API</code> <code>Material UI</code> <code>CSS3</code> <code>Responsive Design</code></td>
       <td align="center">
-        <a href="https://tubeyoou.netlify.app/">🌐 Live Demo</a><br>
-        <a href="https://github.com/nil1902/youtube-clone-">💻 GitHub</a>
+        <a href="https://tubeyoou.netlify.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a><br>
+        <a href="https://github.com/nil1902/youtube-clone-" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
       </td>
     </tr>
     <tr>
@@ -207,7 +217,7 @@
       <td>Discover the beauty within you with our all-in-one makeup companion featuring curated product collections and personalized glam guides.</td>
       <td><code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>Responsive Design</code></td>
       <td align="center">
-        <a href="https://glamourous-girl-git-main-nil1902s-projects.vercel.app/">🌐 Live Demo</a>
+        <a href="https://glamourous-girl-git-main-nil1902s-projects.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a>
       </td>
     </tr>
     <tr>
@@ -215,8 +225,8 @@
       <td>A rebuilt version of classic Tic Tac Toe with 7x7 grid, customizable winning pattern rules, and smooth UI interactions.</td>
       <td><code>React</code> <code>JavaScript</code> <code>CSS3</code> <code>Game Logic</code> <code>State Management</code></td>
       <td align="center">
-        <a href="https://tic-tac-toe-coral-iota-53.vercel.app/">🌐 Live Demo</a><br>
-        <a href="https://github.com/nil1902/tic_tac_toe">💻 GitHub</a>
+        <a href="https://tic-tac-toe-coral-iota-53.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a><br>
+        <a href="https://github.com/nil1902/tic_tac_toe" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
       </td>
     </tr>
   </tbody>
@@ -241,8 +251,8 @@
       <td>An AI-powered MCQ generator for engineering students covering 8 major branches with 100+ curated and AI-generated MCQs, detailed explanations, and offline support.</td>
       <td><code>React 18</code> <code>TypeScript</code> <code>Firebase</code> <code>Tailwind CSS</code> <code>PWA</code> <code>AI Integration</code></td>
       <td align="center">
-        <a href="https://quiz-craft-lime.vercel.app/">🌐 Live Demo</a><br>
-        <a href="https://github.com/nil1902/QuizCraft-apk-install-for-linkedin">💻 GitHub</a>
+        <a href="https://quiz-craft-lime.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a><br>
+        <a href="https://github.com/nil1902/QuizCraft-apk-install-for-linkedin" target="_blank" rel="noopener noreferrer">💻 GitHub</a>
       </td>
     </tr>
     <tr>
@@ -250,8 +260,8 @@
       <td>A premium hotel booking platform designed specifically for couples, helping them discover romantic getaways with seamless booking experience and admin dashboard.</td>
       <td><code>Flutter</code> <code>PostgreSQL</code> <code>REST APIs</code> <code>JWT Auth</code> <code>Razorpay</code> <code>Google Maps</code></td>
       <td align="center">
-        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7434881838025879552/">📺 Demo</a><br>
-        <a href="https://drive.google.com/drive/folders/1ZRw6NcRoAMTKDxtHG3hX4G8-23ahmg5Q">📁 Source</a>
+        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7434881838025879552/" target="_blank" rel="noopener noreferrer">📺 Demo</a><br>
+        <a href="https://drive.google.com/drive/folders/1ZRw6NcRoAMTKDxtHG3hX4G8-23ahmg5Q" target="_blank" rel="noopener noreferrer">📁 Source</a>
       </td>
     </tr>
     <tr>
@@ -259,7 +269,7 @@
       <td>A React-powered PDF utility that enables fast, secure, and client-side PDF resizing and optimization without file uploads.</td>
       <td><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>pdf-lib</code> <code>Tailwind CSS</code> <code>Client-Side</code></td>
       <td align="center">
-        <a href="https://pdffit-omega.vercel.app/">🌐 Live Demo</a>
+        <a href="https://pdffit-omega.vercel.app/" target="_blank" rel="noopener noreferrer">🌐 Live Demo</a>
       </td>
     </tr>
   </tbody>
@@ -434,17 +444,33 @@ const nilimeshPal = {
 
 ---
 
-## ☕ Support My Work
+## 🇮🇳 Support My Work
 
 <div align="center">
-
-**☕ If you find my projects helpful, consider supporting my work!**
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/nil1902)
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nil1902)
-[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nil1902)
+<table width="100%">
+  <tr>
+    <td width="30%" align="center" valign="middle">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=upi://pay?pa=8250565455@paytm%26pn=Nilimesh%20Pal%26cu=INR" width="150" alt="UPI QR Code" style="border: 4px solid #fff; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+      <br>
+      <sub><b>Scan to Pay via UPI</b></sub>
+    </td>
+    <td width="70%" valign="middle" align="left">
+      <h3>💸 Support via UPI / Net Banking</h3>
+      <p>If you find my projects helpful and would like to support my work, you can scan the QR code using any UPI app (Google Pay, PhonePe, Paytm, BHIM, etc.) or use the UPI IDs below:</p>
+      <ul>
+        <li><b>GPay / Paytm UPI ID:</b> <code>8250565455@paytm</code></li>
+        <li><b>PhonePe / BHIM UPI ID:</b> <code>8250565455@ybl</code></li>
+        <li><b>Alternate UPI ID:</b> <code>nilimeshpal15@okaxis</code></li>
+      </ul>
+      <p><i>Every contribution helps in funding hardware prototypes, cloud servers, and open-source development! Thank you! 🙏🇮🇳</i></p>
+    </td>
+  </tr>
+</table>
+</div>
 
 ---
+
+<div align="center">
 
 ### 🌟 Thank you for visiting my profile! 🌟
 
