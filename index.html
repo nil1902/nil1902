@@ -368,7 +368,7 @@
         <section id="github-insights">
             <div class="container">
                 <h2 class="section-title">GitHub Insights</h2>
-                <p class="section-subtitle">Real-time contributions, language metrics, and earned trophies directly from my profile.</p>
+                <p class="section-subtitle">Real-time contributions, language metrics, and repository statistics directly from my profile.</p>
                 
                 <div class="github-insights-grid">
                     <!-- Activity Graph -->
@@ -382,24 +382,16 @@
                     <!-- Stats Card -->
                     <div class="github-card glass-panel">
                         <h3><i class="fa-solid fa-square-poll-vertical"></i> Profile Statistics</h3>
-                        <div class="github-image-wrapper">
-                            <img src="https://github-readme-stats.vercel.app/api?username=nil1902&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1426" alt="Nilimesh Pal's GitHub Stats" loading="lazy">
+                        <div id="github-stats-container" style="width: 100%;">
+                            <!-- Populated dynamically by script.js -->
                         </div>
                     </div>
 
                     <!-- Top Languages Card -->
                     <div class="github-card glass-panel">
                         <h3><i class="fa-solid fa-code-branch"></i> Top Languages</h3>
-                        <div class="github-image-wrapper">
-                            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=nil1902&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=0d1426" alt="Nilimesh Pal's Top Languages" loading="lazy">
-                        </div>
-                    </div>
-
-                    <!-- Trophies Card -->
-                    <div class="github-card glass-panel github-trophies-card">
-                        <h3><i class="fa-solid fa-trophy"></i> Earned Trophies</h3>
-                        <div class="github-trophies-wrapper">
-                            <img src="https://github-profile-trophy.vercel.app/?username=nil1902&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Nilimesh Pal's GitHub Trophies" loading="lazy">
+                        <div id="github-langs-container" style="width: 100%;">
+                            <!-- Populated dynamically by script.js -->
                         </div>
                     </div>
                 </div>
@@ -454,7 +446,7 @@
                                 <div class="info-card-icon"><i class="fa-solid fa-phone"></i></div>
                                 <div class="info-card-content">
                                     <h4>Mobile</h4>
-                                    <p>+91 8250565455</p>
+                                    <p><a href="tel:+918250565455">+91 8250565455</a></p>
                                 </div>
                             </div>
                             <div class="info-card glass-panel">
@@ -470,9 +462,6 @@
                         <div class="support-card glass-panel">
                             <h4>Support My Work</h4>
                             <div class="support-buttons">
-                                <a href="https://www.buymeacoffee.com/nil1902" target="_blank" class="support-btn btn-coffee">
-                                    <i class="fa-solid fa-mug-hot"></i> Buy Me A Coffee
-                                </a>
                                 <a href="https://paypal.me/nil1902" target="_blank" class="support-btn btn-paypal">
                                     <i class="fa-brands fa-paypal"></i> PayPal
                                 </a>

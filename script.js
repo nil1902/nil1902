@@ -9,8 +9,8 @@ const projects = [
         desc: "Modern portfolio with smooth animations, glassmorphic design, and interactive elements. Showcases biography, tech skills, and live project integrations.",
         longDesc: "A high-performance personal portfolio website built with React and Vite. Features advanced glassmorphic styling, smooth transition animations powered by Framer Motion, and a fully responsive grid system. It highlights professional projects, skills, and offers direct contact paths.",
         tech: ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "Vite"],
-        demo: "https://nilimeshpal.dev",
-        github: "https://github.com/nil1902/MyPortfolio1234-MYP-1",
+        demo: "https://nilimesh-portfolio.vercel.app/",
+        github: "",
         icon: "fa-solid fa-user-tie"
     },
     {
@@ -660,18 +660,28 @@ async function fetchGitHubStats() {
         
         const followers = data.followers;
         const publicRepos = data.public_repos;
+        const publicGists = data.public_gists || 0;
         
-        // Fetch all repositories to calculate total stars
+        // Fetch all repositories to calculate total stars and top languages
         const reposResponse = await fetch('https://api.github.com/users/nil1902/repos?per_page=100');
         let stars = 0;
+        const langCounts = {};
+        let totalValidRepos = 0;
+        
         if (reposResponse.ok) {
             const repos = await reposResponse.json();
-            stars = repos.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
+            repos.forEach(repo => {
+                stars += (repo.stargazers_count || 0);
+                if (repo.language) {
+                    langCounts[repo.language] = (langCounts[repo.language] || 0) + 1;
+                    totalValidRepos++;
+                }
+            });
         }
         
+        // 1. Update the Main Stats Grid (add Followers & Stars)
         const statsGrid = document.querySelector('.stats-grid');
         if (statsGrid) {
-            // Create Followers Card
             const followersCard = document.createElement('div');
             followersCard.className = 'stat-card glass-panel';
             followersCard.innerHTML = `
@@ -680,7 +690,6 @@ async function fetchGitHubStats() {
                 <div class="stat-label">GitHub Followers</div>
             `;
             
-            // Create Stars Card
             const starsCard = document.createElement('div');
             starsCard.className = 'stat-card glass-panel';
             starsCard.innerHTML = `
@@ -689,9 +698,77 @@ async function fetchGitHubStats() {
                 <div class="stat-label">GitHub Stars</div>
             `;
             
-            // Append to the grid
             statsGrid.appendChild(followersCard);
             statsGrid.appendChild(starsCard);
+        }
+        
+        // 2. Render Profile Statistics in the GitHub Insights Section
+        const statsContainer = document.getElementById('github-stats-container');
+        if (statsContainer) {
+            statsContainer.innerHTML = `
+                <div class="github-stats-list" style="display: flex; flex-direction: column; gap: 1.1rem; width: 100%; padding: 0.5rem 0;">
+                    <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.6rem;">
+                        <span style="color: var(--text-muted); font-size: 0.95rem;"><i class="fa-solid fa-star" style="color: #fbbf24; margin-right: 0.6rem; width: 16px;"></i> Total Stars</span>
+                        <span style="font-weight: 600; color: #fff; font-size: 0.95rem;">${stars}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.6rem;">
+                        <span style="color: var(--text-muted); font-size: 0.95rem;"><i class="fa-solid fa-code-fork" style="color: #34d399; margin-right: 0.6rem; width: 16px;"></i> Public Repositories</span>
+                        <span style="font-weight: 600; color: #fff; font-size: 0.95rem;">${publicRepos}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 0.6rem;">
+                        <span style="color: var(--text-muted); font-size: 0.95rem;"><i class="fa-solid fa-users" style="color: #60a5fa; margin-right: 0.6rem; width: 16px;"></i> Followers</span>
+                        <span style="font-weight: 600; color: #fff; font-size: 0.95rem;">${followers}</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; padding-bottom: 0.2rem;">
+                        <span style="color: var(--text-muted); font-size: 0.95rem;"><i class="fa-regular fa-file-code" style="color: #f472b6; margin-right: 0.6rem; width: 16px;"></i> Public Gists</span>
+                        <span style="font-weight: 600; color: #fff; font-size: 0.95rem;">${publicGists}</span>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // 3. Render Top Languages in the GitHub Insights Section
+        const langsContainer = document.getElementById('github-langs-container');
+        if (langsContainer && totalValidRepos > 0) {
+            const langColors = {
+                'JavaScript': '#f1e05a',
+                'TypeScript': '#3178c6',
+                'Python': '#3572A5',
+                'C': '#555555',
+                'HTML': '#e34c26',
+                'CSS': '#563d7c',
+                'Dart': '#00B4AB',
+                'Java': '#b07219',
+                'C++': '#f34b7d',
+                'Shell': '#89e051'
+            };
+            
+            const sortedLangs = Object.entries(langCounts)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 5);
+                
+            let langsHtml = '<div style="display: flex; flex-direction: column; gap: 1.1rem; width: 100%; padding: 0.5rem 0;">';
+            
+            sortedLangs.forEach(([lang, count]) => {
+                const pct = Math.round((count / totalValidRepos) * 100);
+                const color = langColors[lang] || '#a78bfa';
+                langsHtml += `
+                    <div class="tech-item" style="gap: 0.4rem;">
+                        <div class="tech-info" style="font-size: 0.9rem; display: flex; justify-content: space-between;">
+                            <span class="tech-name" style="font-weight: 500; color: var(--text-main);"><i class="fa-solid fa-circle" style="color: ${color}; font-size: 0.65rem; margin-right: 0.6rem; vertical-align: middle;"></i> ${lang}</span>
+                            <span class="tech-val" style="color: var(--text-muted); font-weight: 500;">${pct}%</span>
+                        </div>
+                        <div class="tech-bar-bg" style="height: 5px; background: rgba(255,255,255,0.05); border-radius: 10px; overflow: hidden;">
+                            <div class="tech-bar-fill" style="width: ${pct}%; height: 100%; border-radius: 10px; background: ${color}; box-shadow: 0 0 5px ${color}33;"></div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            langsHtml += '</div>';
+            langsContainer.innerHTML = langsHtml;
+        } else if (langsContainer) {
+            langsContainer.innerHTML = `<div style="color: var(--text-muted); font-style: italic; font-size: 0.95rem; text-align: center; padding: 1rem 0;">No language data available</div>`;
         }
     } catch (error) {
         console.error('Error fetching GitHub stats:', error);
