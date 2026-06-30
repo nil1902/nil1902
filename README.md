@@ -28,7 +28,7 @@
 
 ---
 
-## � About Mev
+## 🙋🏻‍♂️ About Mev
 
 <table width="100%">
   <tr>
