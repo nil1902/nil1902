@@ -650,3 +650,54 @@ navLinks.forEach(link => {
         menuToggle.querySelector("i").className = "fa-solid fa-bars-staggered";
     });
 });
+
+// --- FETCH REAL-TIME GITHUB STATS ---
+async function fetchGitHubStats() {
+    try {
+        const response = await fetch('https://api.github.com/users/nil1902');
+        if (!response.ok) throw new Error('Failed to fetch GitHub profile');
+        const data = await response.json();
+        
+        const followers = data.followers;
+        const publicRepos = data.public_repos;
+        
+        // Fetch all repositories to calculate total stars
+        const reposResponse = await fetch('https://api.github.com/users/nil1902/repos?per_page=100');
+        let stars = 0;
+        if (reposResponse.ok) {
+            const repos = await reposResponse.json();
+            stars = repos.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
+        }
+        
+        const statsGrid = document.querySelector('.stats-grid');
+        if (statsGrid) {
+            // Create Followers Card
+            const followersCard = document.createElement('div');
+            followersCard.className = 'stat-card glass-panel';
+            followersCard.innerHTML = `
+                <div class="stat-icon" style="color: var(--primary);"><i class="fa-solid fa-users"></i></div>
+                <div class="stat-number">${followers}</div>
+                <div class="stat-label">GitHub Followers</div>
+            `;
+            
+            // Create Stars Card
+            const starsCard = document.createElement('div');
+            starsCard.className = 'stat-card glass-panel';
+            starsCard.innerHTML = `
+                <div class="stat-icon" style="color: var(--secondary);"><i class="fa-solid fa-star"></i></div>
+                <div class="stat-number">${stars}</div>
+                <div class="stat-label">GitHub Stars</div>
+            `;
+            
+            // Append to the grid
+            statsGrid.appendChild(followersCard);
+            statsGrid.appendChild(starsCard);
+        }
+    } catch (error) {
+        console.error('Error fetching GitHub stats:', error);
+    }
+}
+
+// Call on load
+fetchGitHubStats();
+
