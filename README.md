@@ -458,9 +458,9 @@ const nilimeshPal = {
       <h3>💸 Support via UPI / Net Banking</h3>
       <p>If you find my projects helpful and would like to support my work, you can scan the QR code using any UPI app (Google Pay, PhonePe, Paytm, BHIM, etc.) or use the UPI IDs below:</p>
       <ul>
-        <li><b>GPay / Paytm UPI ID:</b> <code>8250565455@paytm</code></li>
-        <li><b>PhonePe / BHIM UPI ID:</b> <code>8250565455@ybl</code></li>
-        <li><b>Alternate UPI ID:</b> <code>nilimeshpal15@okaxis</code></li>
+        <li><b>Paytm UPI ID:</b> <code>8250565455@paytm</code></li>
+        <li><b>PhonePe:</b> <code>8250565455@ybl</code></li>
+        <li><b>Alternate UPI ID:</b> <code>8250565455@upi</code></li>
       </ul>
       <p><i>Every contribution helps in funding hardware prototypes, cloud servers, and open-source development! Thank you! 🙏🇮🇳</i></p>
     </td>
